@@ -1,0 +1,82 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# ==============================
+# Environnements virtuels
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Variables d'environnement et secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Tests et couverture
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Type checking et linting
+# ==============================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==============================
+# Logs et fichiers temporaires
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+
+# ==============================
+# IDE et éditeurs
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Outils Python
+# ==============================
+.pdm-python
+.pdm-build/
+.python-version
+
+# ==============================
+# Fichiers de configuration locaux
+# ==============================
+config.local.py
